@@ -1,0 +1,128 @@
+/* Variables Section */
+
+:root {
+    --icon-size: 3rem;
+}
+
+/* Global Styles */
+body {}
+
+
+/* Navigation Section */
+
+.navbar .nav-link {
+    text-transform: uppercase;
+    padding: 0 1rem !important;
+}
+
+.navbar .nav-link.active {
+    border-left: 3px solid #444;
+}
+
+/* Showcase Section */
+
+/* Carousel Section */
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url(../img/image1.jpg);
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url(../img/image2.jpg);
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url(../img/image3.jpg);
+    background-size: cover;
+}
+
+
+/* Home Icon Section */
+
+#home-icon i {
+    font-size: var(--icon-size)
+}
+
+
+
+/* Ready  Section */
+
+#ready {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/lights.jpg) no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Video Section */
+
+#video-play {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/media.jpg) no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#video-play i {
+    font-size: var(--icon-size)
+}
+
+
+/* Footer Section */
+footer {
+    background: #000;
+}
+
+
+
+/* About Section */
+
+#page-header {
+    background: url(../img/image1.jpg) no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#about img {
+    margin-top: -50px;
+}
+
+/* Testimonials */
+
+#testimonials .carousel {
+    height: 100px;
+}
+
+#testimonials .carousel-item.active,
+#testimonials .carousel-item {
+    height: 100px;
+}
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

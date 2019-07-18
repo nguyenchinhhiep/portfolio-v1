@@ -1,0 +1,294 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Header */
+header {
+    background: linear-gradient(rgba(204, 51, 51, 0.7), rgba(204, 51, 51, 0.7)), url(../img/showcase.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 850px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nav a:hover,
+.active {
+    color: coral;
+}
+
+.iphone-wrap {
+    width: 420px;
+    margin-right: 70px;
+    position: relative;
+    opacity: 1;
+}
+
+#iphone-on {
+    position: absolute;
+    top: 128px;
+    width: 83%;
+    right: -19px;
+}
+
+#btn {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+
+.phone-wrap .animated {
+    opacity: 1;
+}
+
+
+.showcase {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.welcome {
+    padding-right: 120px;
+}
+
+.welcome h2 {
+    font-size: 52px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.welcome p {
+    font-size: 36px;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 53px;
+}
+
+.btn {
+    width: 370px;
+    background: #282828;
+    text-align: center;
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px;
+}
+
+.btn i {
+    margin: 0 10px;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+
+
+
+/* Features */
+.features {
+    padding: 85px 0 112px 0;
+    line-height: 30px;
+}
+
+.features h2 {
+    font-size: 52px;
+    color: #8a8a8a;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.features span {
+    display: block;
+    font-size: 22px;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 0 100px;
+    margin-bottom: 65px;
+    font-family: Helvetica;
+}
+
+.features-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.features-inner .feature:last-child {
+    padding-right: 0;
+}
+
+.feature {
+    padding-right: 120px;
+}
+
+.feature h4 {
+    font-size: 24px;
+    margin: 35px 0;
+}
+
+.feature p {
+    font-size: 18px;
+    color: #646464;
+    font-family: Helvetica;
+}
+
+
+/* Download */
+.download {
+    background: url(../img/bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 850px;
+}
+
+.download h2 {
+    font-size: 52px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.download h2 span {
+    color: red;
+}
+
+.download-inner {
+    padding: 199px 350px 160px 0;
+}
+
+.btn-dl {
+    background: red;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 76px;
+}
+
+.download-inner p {
+    font-family: Helvetica;
+    color: #585858;
+    font-size: 24px;
+    padding-right: 320px;
+    line-height: 35px;
+}
+
+
+
+/* Footer */
+footer {
+    background: #2e2e38;
+    padding-top: 120px;
+    padding-bottom: 15px;
+}
+
+.footer-inner {
+    display: flex;
+}
+
+.post {
+    width: 33.3%;
+    padding-left: 50xp;
+}
+
+.single {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 150px;
+}
+
+.single img {
+    margin-right: 10px;
+}
+
+footer h6 {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.single {
+    margin-bottom: 25px;
+}
+
+.single p {
+    font-size: 15px;
+    color: #fff;
+}
+
+.post p {
+    color: #fff;
+    padding: 15px 0;
+}
+
+.post span {
+    font-size: 11px;
+    color: #fff;
+}
+
+.post a {
+    color: #fff;
+}
+
+.tweet {
+    padding-right: 100px;
+}
+
+.about p {
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: darkgray;
+    text-align: left;
+
+}

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* Global Styles Section */
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+.heading {
+    font-size: 1.9rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+/* Navigation Section */
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+    height: 2rem;
+    padding-left: .7rem;
+
+}
+
+.navbar-nav li {
+    padding-right: .7rem
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-top: .9rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3;
+}
+
+/* Showcase Section */
+
+.showcase-inner {
+    background: url(img/computers.png) no-repeat fixed;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    padding-bottom: 1rem;
+}
+
+.caption h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 1.6rem;
+}
+
+.caption .btn {
+    border-width: medium;
+    border-radius: 0;
+    padding: .5rem 1.6rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+/* Course Section */
+
+.narrow {
+    width: 75%;
+    margin: 2rem auto;
+    padding-top: 2rem;
+}
+
+.course-inner h2 {
+    font-size: 2.3rem;
+}
+
+.course-inner .btn {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: .7rem 1rem;
+    margin: 1rem;
+    background: #1bbea3;
+    border-color: #1bbea3;
+}
+
+.course-inner .btn:hover {
+    background: #189582;
+}
+
+/* Features Section */
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 3rem 0 3rem;
+    border-radius: 0;
+}
+
+.features-inner h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.under-line {
+    width: 3rem;
+    height: .2rem;
+    background: #1ebba3;
+    margin: 0 auto 2rem;
+}
+
+.feature i {
+    color: #1ebba3;
+    margin-bottom: 1rem
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.feature p {
+    font-size: 1.1rem;
+}
+
+/* Resources Section */
+
+.resources-inner {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(img/apple.png) no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 7rem 0;
+    color: #fff;
+}
+
+.resources-inner h3 {
+    font-size: 1.9rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.resources-inner h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.resources-inner p {
+    margin-top: .5rem;
+    font-size: 1.1rem;
+}
+
+/* Clients Section */
+.clients-inner {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.clients-inner img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+blockquote i {
+    color: #1ebba3;
+    margin: 1rem;
+}
+
+
+.clients-hr {
+    border-top: .05rem solid #1ebba3;
+}
+
+
+/* Contact Section */
+
+footer {
+    background: #40474e;
+    color: #fff;
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer i {
+    font-size: 1.6rem;
+    color: #fff;
+    margin: 1.2rem 1.5rem 0 0;
+}
+
+footer i:hover {
+    color: #1ebba3 !important;
+}
+
+.footer-hr {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

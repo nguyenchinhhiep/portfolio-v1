@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogen Admin UI | Hiep Nguyen</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Section -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Blogen</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+    </nav>
+
+    <!-- End Navigation Section -->
+
+    <!-- Header Section -->
+
+    <header id="main-header" class="bg-primary py-2 text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1><i class="fas fa-user"></i> Blogen Admin</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End Header Section -->
+
+
+    <!-- Posts Section -->
+
+    <section id="posts" class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Account Login</h4>
+                        </div>
+                        <div class="card-body">
+                            <form action="index.html">
+                                <div class="form-group">
+                                    <label for="email">
+                                        Email
+                                    </label>
+                                    <input type="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">
+                                        Password
+                                    </label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <input type="submit" class="btn btn-primary btn-block" value="Login">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Post Section -->
+
+    <!-- Footer Section -->
+
+    <footer id="footer" class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="m-0 lead">Copyright &copy; 2019 Hiep Nguyen</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer Section -->
+
+    <!-- Bootstrap setup  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.11.4/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('editor1');
+    </script>
+</body></html>

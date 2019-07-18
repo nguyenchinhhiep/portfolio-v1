@@ -1,0 +1,109 @@
+/* Variables */
+
+:root {
+    --primary: #008ed6;
+    --bg-color: #333;
+    --font-color: #fff;
+}
+
+/* Global Styles */
+
+body {
+    background: var(--bg-color);
+    color: var(--font-color);
+}
+
+/* Navigation */
+
+.navbar {
+    border-bottom: 3px solid var(--primary);
+    opacity: 0.8;
+}
+
+/* Home Section */
+
+#home-section {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/home.jpg) no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+}
+
+.home-inner {
+    padding-top: 150px;
+}
+
+#home-section .card-form {
+    opacity: .8;
+}
+
+#home-section i {
+    background: #fff;
+    color: var(--primary);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Explore Section */
+
+#explore i {
+    background: #333;
+    color: #fff;
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+/* Create Section */
+
+#create i {
+    background: #fff;
+    color: var(--primary);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Share */
+#share i {
+    background: #333;
+    color: #fff;
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

@@ -1,0 +1,280 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background: #F5F5F5;
+    color: #67727A;
+    font-family: 'Alegreya', sans-serif;
+}
+h2 {
+    font-size: 3.4rem;
+    text-align: center;
+    padding: 3rem;
+    color: #F5F5F5;
+}
+h3 {
+    font-size: 2.7rem;
+    padding: 2rem 0;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+p {
+    font-size: 2.5rem;
+    padding: 2rem 2rem;
+    text-align: justify;
+    color: #F5F5F5;
+}
+img {
+    width: 100%;
+    margin-bottom: -0.4rem
+}
+
+/* Header */
+.header {
+    background: #6991AC;
+    height: 8.6rem;
+    line-height: 8.6rem;
+    width: 100%;
+}
+.header-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    width: 20rem;;
+    height: 8.6rem;
+    background: url(img/RD.png) no-repeat center;
+    
+
+}
+.main-nav {
+    float: right;
+    font-size: 1.7rem
+}
+.main-nav ul {
+    list-style: none;
+}
+.main-nav ul li {
+    display: inline-block;
+    float: left;
+    padding: 0 1rem
+}
+.main-nav li a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+.main-nav li a:hover {
+    color: #C3D7DF;
+}
+.current {
+    color: #C3D7DF !important;
+}
+
+/* Banner */
+.banner {
+    background: #6991AC;
+}
+.banner-inner {
+    max-width: 116rem;
+    margin: 0 auto;
+}
+
+/* HTML CSS */
+.column1 {
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    font-size: 5rem;
+    padding: 4rem 0;
+    color: #F0F0F0;
+}
+#html {
+    background: #F1AA90; 
+}
+#css {
+    background: #BEB9AD;
+}
+#search {
+    background: #AADCD2;
+}
+#social {
+    background: #A2B2C1;
+}
+
+/* Row */
+article {
+    width: 100%;
+    background: #C3D7DF;
+    margin: 0 auto;
+    float: left;
+}
+.left {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    float: left;
+}
+.right {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    float: right;
+}
+#tablet {
+    background: #A2B1C1;
+    min-height: 35rem;
+}
+#mobile {
+    background: #BEB9AD;
+    min-height: 35rem;
+}
+#desktop {
+    background: #F1AA90;
+    min-height: 20rem;
+    padding-top: 2rem;
+}
+
+
+.row2 {
+    width: 100%;
+    
+    display: flex;
+    
+}
+.google {
+    float: left;
+    width: 33.3%;
+    background: #A2B1C1;
+    text-align: center;
+    height: auto;
+    padding-top: 2rem;
+}
+.marketing {
+    float: left;
+    width: 33.3%;
+    background: #BEB9AD;;
+    text-align: center;
+    height: auto;
+    padding-top: 2rem;
+    
+}
+.happy {
+    float: left;
+    width: 33.3%;
+    background: #AADCD2;
+    text-align: center;
+    min-height: 30rem;
+    padding-top: 2rem;
+}
+.smile {
+    text-align: center;
+    font-size: 5rem;
+    width: 100%;
+    height: auto;
+    background-color: #AADCD2;
+    clear: both;
+}
+.smile span {
+    display: block;
+    padding-top: 2rem;
+}
+
+.socials {
+    background: #6991A2;
+    text-align: center;
+    font-size: 8rem
+}
+.socials ul {
+    list-style: none;
+}
+.socials ul li {
+    display: inline-block;
+    padding: 5rem;
+}
+.socials li a {
+    text-decoration: none;
+    color: #C3D7DF;
+}
+.socials li a:hover {
+    color: #F5F5F5;
+}
+.copyright {
+    text-align: center;
+    min-height: 3rem;
+    line-height: 3rem;
+    background: #544B59;
+    border-top: 2px solid #AADCD2;
+}
+.copyright span {
+    font-size: 2rem;
+    color: #F5F5F5
+}
+
+a#menu-icon {
+    background: url(img/nav.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    nav ul {
+        display: none;
+        position: absolute;
+        background: #6991AC;
+        width: 50%;
+        right: 0;
+        top: 60px;
+        z-index: 1000;
+        padding: 10px 0;
+    }
+    a#menu-icon {
+        display: block;
+        
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav ul li {
+        text-align: center;
+        width: 100%;
+        display: block;
+        height: 
+    }
+    .column1 {
+        float:left;
+        width: 100%;
+    }
+    .left, .right {
+        width: 100%;
+        float: left;
+        
+    }
+    .right img {
+        display: none;
+    }
+    .row2 {
+        flex-direction: column;
+    }
+    .google, .marketing, .happy {
+        float: left;
+        width:100%;
+    }
+    .socials i {
+        font-size: 50px;
+        float:left;
+    }
+    .socials ul li {
+        padding: 25px;
+    }
+}

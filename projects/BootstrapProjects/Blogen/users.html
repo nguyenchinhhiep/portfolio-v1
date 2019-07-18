@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogen Admin UI | Hiep Nguyen</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Section -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Blogen</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                        <a href="index.html" class="nav-link">Dashboard</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="posts.html" class="nav-link">Posts</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="categories.html" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="users.html" class="nav-link active">Users</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mr-3">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-user"></i> Hiep Nguyen
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="profile.html" class="dropdown-item">
+                                <i class="fa fa-user-circle"></i> Profile
+                            </a>
+                            <a href="settings.html" class="dropdown-item">
+                                <i class="fas fa-cog"></i> Settings
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">
+                            <i class="fa fa-user-times"></i> Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End Navigation Section -->
+
+    <!-- Header Section -->
+
+    <header id="main-header" class="bg-warning py-2 text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1><i class="fas fa-user"></i> Users</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End Header Section -->
+
+    <!-- Action Section -->
+
+    <section id="action" class="py-4 bg-light">
+        <div class="container">
+            <div class="col-md-6 ml-auto">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-btn">
+                        <button class="btn btn-warning">Search</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Action Section -->
+
+    <!-- Users Section -->
+
+    <section id="posts">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h3>Latest Users</h3>
+                        </div>
+                        <table class="table table-striped table-hover">
+                            <thead class="thead-dark">
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">1</td>
+                                    <td>Hiep Nguyen</td>
+                                    <td>nguyenchinhhiep95@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">1</td>
+                                    <td>Hiep Nguyen</td>
+                                    <td>nguyenchinhhiep95@gmail.com</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <nav class="ml-4">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a href="#" class="page-link disabled">Previous</a>
+                                </li>
+                                <li class="page-item active">
+                                    <a href="#" class="page-link">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Post Section -->
+
+    <!-- Footer Section -->
+
+    <footer id="footer" class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="m-0 lead">Copyright &copy; 2019 Hiep Nguyen</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer Section -->
+
+    <!-- Bootstrap setup  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.11.4/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('editor1');
+    </script>
+</body></html>

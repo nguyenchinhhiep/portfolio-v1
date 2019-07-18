@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Open-sans', sans-serif;
+}
+ul {
+    list-style: none;
+}
+h1 {
+    font-size: 3.5rem; 
+}
+h2 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 1.9rem;
+    padding: 2rem 0
+}
+p {
+    font-size: 1.6rem;
+    padding: 1rem;
+    color: #888;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+}
+.container {
+    max-width: 117rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+/* Header */
+.header {
+    min-height: 8rem;
+    line-height: 8rem;
+}
+.logo{
+    float: left;
+}
+span {
+    color: #56a79a;
+    
+}
+nav {
+    float: right;
+    font-size: 2rem;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    float: left;
+    padding-left: 2rem
+}
+nav a {
+    text-decoration: none;
+    color: #888; 
+}
+nav a:hover {
+    color: #56a79a;
+}
+
+/* Showcase */
+.showcase {
+    background: url(../images/showcase.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    text-align: center;
+    position: relative;
+}
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    color: #fff;
+    opacity: 0.8;
+    border-radius: 9rem;
+}
+.text {
+    padding: 4rem;
+}
+.text h1 {
+    padding-bottom: 2rem;
+    font-size: 5rem;
+}
+
+
+/* Core Feature */
+.core-feature {
+    text-align: center;
+    margin: 4rem 0;
+}
+.core-title {
+    margin-bottom: 3rem;
+}
+.feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem 0
+}
+.feature i {
+    font-size: 7rem;
+}
+
+/* Iphone */
+.iphone {
+    width: 100%;
+    background: url(../images/feature.jpg)
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone-text {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding-right: 10rem;
+}
+.phone-text h3 {
+    font-size: 3.5rem;
+    padding: 3rem 0; 
+}
+.phone-text li {
+    padding: 1rem;
+}
+
+/* Info */
+.wrap-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.info {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+}
+.contact i {
+    font-size: 3rem;
+}
+.contact li {
+    font-size: 2rem;
+    display: block;
+    padding: 0.5rem
+}
+.about {
+    padding: 0 1rem;
+}
+.info p {
+    padding: 1rem 0;;
+    color: #fff;  
+}
+form input[type="text"] {
+    padding: 0.5rem;
+}
+form button[type="submit"] {
+    padding: 0.8rem;
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #56a79a;
+}
+.footer p {
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    
+    
+}
